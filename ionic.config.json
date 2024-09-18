@@ -1,0 +1,7 @@
+{
+  "name": "freshProject",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
