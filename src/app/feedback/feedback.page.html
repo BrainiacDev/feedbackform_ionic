@@ -1,0 +1,234 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CUSTOMER FEEDBACK ASSESSMENT FORM</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <p class="description">
+      We value your feedback and strive to provide excellent service. Please
+      take a moment to share your thoughts with us.
+    </p>
+
+    <form>
+      <!-- Email -->
+      <ion-card>
+        <ion-item>
+          <ion-label position="stacked"
+            >Email <span class="required">*</span></ion-label
+          >
+          <ion-input
+            type="email"
+            placeholder="Your email address"
+            required
+          ></ion-input>
+        </ion-item>
+      </ion-card>
+
+      <!-- Question 1 -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >1. How satisfied were you with your overall experience?
+            <span class="required">*</span></ion-label
+          >
+        </ion-item>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Very Satisfied</ion-label>
+            <ion-radio slot="start" value="Very Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Satisfied</ion-label>
+            <ion-radio slot="start" value="Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Neutral</ion-label>
+            <ion-radio slot="start" value="Neutral"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Dissatisfied</ion-label>
+            <ion-radio slot="start" value="Dissatisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Very Dissatisfied</ion-label>
+            <ion-radio slot="start" value="Very Dissatisfied"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-card>
+
+      <!-- Question 2 -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >2. Did our product/service meet your expectations?
+            <span class="required">*</span></ion-label
+          >
+        </ion-item>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Exceeded Expectations</ion-label>
+            <ion-radio slot="start" value="Exceeded Expectations"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Met Expectations</ion-label>
+            <ion-radio slot="start" value="Met Expectations"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Did Not Meet Expectations</ion-label>
+            <ion-radio
+              slot="start"
+              value="Did Not Meet Expectations"
+            ></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-card>
+
+      <!-- Question 3 -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >3. How likely are you to recommend us to a friend or colleague?
+            <span class="required">*</span></ion-label
+          >
+        </ion-item>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Extremely Likely </ion-label>
+            <ion-radio slot="start" value="Very Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Likely</ion-label>
+            <ion-radio slot="start" value="Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Neutral</ion-label>
+            <ion-radio slot="start" value="Neutral"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Unlikely</ion-label>
+            <ion-radio slot="start" value="Dissatisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Extremely Unlikely</ion-label>
+            <ion-radio slot="start" value="Very Dissatisfied"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-card>
+
+      <!-- Question 4 -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >4. How would you rate the friendliness and helpfulness of our
+            staff?<span class="required">*</span></ion-label
+          >
+        </ion-item>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Excellent</ion-label>
+            <ion-radio slot="start" value="Very Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Good</ion-label>
+            <ion-radio slot="start" value="Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Fair</ion-label>
+            <ion-radio slot="start" value="Neutral"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Poor</ion-label>
+            <ion-radio slot="start" value="Dissatisfied"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-card>
+
+      <!-- Question 5 -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >5. How satisfied were you with the ease of use/navigability of our
+            website/app (if applicable)?
+            <span class="required">*</span></ion-label
+          >
+        </ion-item>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>Very Satisfied</ion-label>
+            <ion-radio slot="start" value="Very Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Satisfied</ion-label>
+            <ion-radio slot="start" value="Satisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Neutral</ion-label>
+            <ion-radio slot="start" value="Neutral"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Dissatisfied</ion-label>
+            <ion-radio slot="start" value="Dissatisfied"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Very Dissatisfied</ion-label>
+            <ion-radio slot="start" value="Very Dissatisfied"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-card>
+
+      <!-- Additional questions similar to the above... -->
+
+      <!-- Question 6 -->
+      <ion-card>
+        <ion-item>
+          <ion-label
+            >6. Have you encountered any issues or challenges with our
+            product/service?</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-textarea placeholder="Your answer"></ion-textarea>
+        </ion-item>
+      </ion-card>
+
+      <!-- Question 7 -->
+      <ion-card>
+        <ion-item>
+          <ion-label
+            >7. Please share any comments, suggestions, or concerns you
+            have:</ion-label
+          >
+        </ion-item>
+        <ion-item>
+          <ion-textarea placeholder="Your answer"></ion-textarea>
+        </ion-item>
+      </ion-card>
+
+      <!-- Thank you note -->
+      <ion-card>
+        <ion-item lines="none">
+          <ion-label
+            >8. Thank you for taking the time to complete this feedback
+            assessment. Your input is greatly appreciated and helps us improve
+            our services.</ion-label
+          >
+        </ion-item>
+        <ion-item>
+          <ion-input placeholder="Name.........."></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input placeholder="Date.........."></ion-input>
+        </ion-item>
+      </ion-card>
+
+      <!-- Buttons -->
+      <div class="container_btn">
+        <ion-button expand="block" color="primary">Submit</ion-button>
+        <ion-button expand="block" color="light" (click)="clearForm()"
+          >Clear form</ion-button
+        >
+      </div>
+    </form>
+  </div>
+</ion-content>
